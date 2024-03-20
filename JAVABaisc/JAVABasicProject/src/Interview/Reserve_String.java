@@ -1,0 +1,65 @@
+package Interview;
+
+public class Reserve_String {
+
+	public void using_Buffer() {
+
+		String name = "Saranmamatha";
+
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(name);
+
+		System.out.println(buffer.reverse());
+
+	}
+	
+	public void using_own_logic() {
+		
+
+		String name1 = "Mamathasaranraj";
+
+		char[] ca = name1.toCharArray();
+
+		String add = "";
+
+		for (int i = ca.length - 1; i >= 0; i--) {
+
+			add = add + ca[i];
+
+		}
+		System.out.println(add);
+
+	}
+	
+	public void geeksReverseString() {
+		
+		String str="greeks" ,ntr="";
+		
+		
+		char ch;
+		
+		for(int i=0;i<str.length();i++) {
+			ch =str.charAt(i);
+			
+			ntr=ch+ntr;
+			
+			
+		}
+		System.out.println(ntr);
+		
+		
+	}
+		
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// String Immutable
+		
+		Reserve_String rs = new Reserve_String();
+		rs.geeksReverseString();
+
+
+}
+}

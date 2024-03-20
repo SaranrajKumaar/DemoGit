@@ -1,0 +1,21 @@
+package Interview;
+
+public class Swap_Two_number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int junior =20;
+		int senior =50;
+		
+		System.out.println();
+		
+		int temp =junior;
+		junior=senior;
+		senior=temp;
+		
+		System.out.println(senior);
+
+	}
+
+}

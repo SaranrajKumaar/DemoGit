@@ -1,0 +1,43 @@
+package Interview;
+
+public class Reserve_String {
+
+	public void using_Buffer() {
+
+		String name = "Saranmamatha";
+
+		StringBuffer buffer = new StringBuffer();
+		buffer.append(name);
+
+		System.out.println(buffer.reverse());
+
+	}
+	
+	public void using_For() {
+		
+
+		String name1 = "Mamathasaranraj";
+
+		char[] ca = name1.toCharArray();
+
+		String add = "";
+
+		for (int i = ca.length - 1; i >= 0; i--) {
+
+			add = add + ca[i];
+
+		}
+		System.out.println(add);
+
+	}
+	}
+		
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// String Immutable
+
+
+}

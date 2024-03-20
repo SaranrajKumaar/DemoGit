@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\QAFOX\JAVABaisc\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1535939432.index
+2202384772.index

@@ -1,0 +1,54 @@
+package Interview;
+
+import java.util.Scanner;
+
+public class Triangle {
+	
+	public void star() {
+System.out.println("Enter your number: ");
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int no_of_Lines=sc.nextInt();
+		
+		for(int i =0; i<no_of_Lines; i++) {
+			
+			for(int  j=0; j<=i;j++) {
+				
+				System.out.print("* ");
+				
+			}
+			System.out.println();
+		}
+		
+	}
+	
+	public static void adding_Number() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int addingNumber =sc.nextInt();
+		
+		int add=0;
+		
+		for (int i=0; i<addingNumber;i++) {
+			for(int j=0;j<=i; j++) {
+				
+				add= add+1;
+				System.out.print(add +" ");
+				
+			}
+			System.out.println();
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		adding_Number();
+		
+	}
+	
+
+}

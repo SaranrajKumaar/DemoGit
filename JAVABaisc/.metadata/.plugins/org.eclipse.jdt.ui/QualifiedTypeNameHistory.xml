@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Basic.Marutisuzki"/>
+    <fullyQualifiedTypeName name="Basic.TATA"/>
+    <fullyQualifiedTypeName name="Abstract.engine"/>
+    <fullyQualifiedTypeName name="Abstract.model"/>
+    <fullyQualifiedTypeName name="Basic.overloading"/>
+    <fullyQualifiedTypeName name="Basic.date"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.spi.CalendarDataProvider"/>
+    <fullyQualifiedTypeName name="java.util.Calendar"/>
+    <fullyQualifiedTypeName name="org.xml.sax.helpers.NamespaceSupport"/>
+    <fullyQualifiedTypeName name="Basic.accessmodifiers"/>
+    <fullyQualifiedTypeName name="Basic.static_non_Static"/>
+</qualifiedTypeNameHistroy>

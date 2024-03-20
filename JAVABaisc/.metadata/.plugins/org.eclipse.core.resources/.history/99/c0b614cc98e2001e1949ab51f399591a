@@ -1,0 +1,27 @@
+package Interview;
+
+import java.util.Scanner;
+
+public class Triangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Enter your digit : ");
+
+		Scanner sc =new Scanner(System.in);
+		
+		int no_Of_Lines =sc.nextInt();
+		
+		int row,col=0;
+		for(row=0;row<no_Of_Lines;row++) {
+			for(col=0;col<=row;col++) {
+				System.out.print("*");
+			}
+			System.out.println( );
+			
+		}
+	}
+	
+
+}
