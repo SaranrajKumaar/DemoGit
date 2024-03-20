@@ -18,5 +18,10 @@ public class api {
 	public void setPrice(String price) {
 		this.price = price;
 	}
+	
+	public void newapp() {
+		
+		System.out.println("Selenium and core java ,Data testing , ");
+	}
 
 }
