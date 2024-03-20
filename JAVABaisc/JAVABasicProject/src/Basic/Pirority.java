@@ -24,6 +24,13 @@ public class Pirority {
 		
 	}
 	
+	public void before() {
+		System.out.println("Testng");
+	}
+	public void before1() {
+		System.out.println("Testng");
+	}
+	
 	public void befMethod() {
 		System.out.println("before methods");
 	}
